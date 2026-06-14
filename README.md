@@ -43,20 +43,6 @@
 
 ---
 
-## 📁 STRUKTUR FOLDER
-NULL_STORM/
-├── null_c2.py # C2 Command & Control Server
-├── null_bot.py # Bot Client
-├── config.py # Konfigurasi
-├── banner.py # Tampilan Banner
-├── attack_modules/
-│ ├── init.py
-│ ├── apocalypse_flood.py # HTTP Flood Attack
-│ └── slow_read.py # Slow Read Attack
-
-
----
-
 ## 📥 INSTALLASI
 
 ### 1. Clone Repository
