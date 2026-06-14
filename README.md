@@ -130,33 +130,3 @@ Semua bot dalam satu jaringan. Auto-discovery via UDP broadcast. Tidak perlu dom
 Internet (WAN)
 
     Setup domain DuckDNS gratis di https://duckdns.org
-
-    Isi C2_DOMAIN di config.py
-
-    Bot resolve domain otomatis
-
-
-# config.py
-C2_DOMAIN = "nullstorm.duckdns.org"
-
-❓ TROUBLESHOOTING
-Masalah	Solusi
-0 bots	Jalankan null_bot.py di mesin lain
-Bot tidak connect	Buka port TCP 4444 & UDP 4445 di firewall
-asyncio error	Pakai Python 3.8+
-Target tidak down	Tambah jumlah bot, naikkan concurrency, pakai mode 3
-IP diblokir	Restart modem dapat IP baru, tambah bot dari IP berbeda
-📊 TIPS MAKSIMAL
-
-    5 bot minimum dari IP berbeda
-
-    Concurrency 5000+ per bot
-
-    Gunakan Mode 3 selalu
-
-    Port 443 untuk target HTTPS
-
-    Durasi 300 detik atau lebih
-
-
-<p align="center"> <img src="https://raw.githubusercontent.com/thisnull7/nullbotnet/refs/heads/main/c2.png" alt="NULL STORM" width="400"> </p><p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=monospace&size=14&duration=2000&color=FF0000&center=true&vCenter=true&width=400&lines=%E2%98%A0+Use+responsibly+%E2%98%A0;Star+%E2%AD%90+if+useful" alt="footer"> </p> ```
